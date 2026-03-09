@@ -52,12 +52,12 @@ createCollectable("diamond", 800, 300, 0.5, 0.7);
     // TODO 4 - Create Cannons
 createCannon("right", 300, 800);
 createCannon("right", 700, 800);
-    
+    createCannon("left", 550, 800);
     
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
-    //////////////////////////////////
-  }
+    //////////////////////////
 
-  registerSetup(setup);
+  registerSetup(setup);////////
+  }
 });
